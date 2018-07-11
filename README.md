@@ -42,3 +42,13 @@ CREATE TABLE `wp_cadastro_simples` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 ```
+
+#### Exemplo de uso
+Aplicar o `shortcode`
+```
+[cadastro_simples title="Registre-se aqui!" submit="Registrar" icon="dashicons-yes"]
+```
+Sendo os parâmetros:
+* `title`: Título de topo do formulário
+* `submit`: Label do botão de envio do formulário
+* `icon`: Classe do ícone do botão - [Dashicons](https://developer.wordpress.org/resource/dashicons/#media-archive)
